@@ -1,0 +1,6 @@
+   <div class="news-container">
+        <news-thumbnail class="test" *ngFor='let news of newsList' [news]='news' 
+         [useWatchListAPI]='useWatchListAPI' (addNews)='addToWatchList($event)'
+         (deleteNews)='deleteNewsFromWatchList($event)' >
+     </news-thumbnail>
+   </div>

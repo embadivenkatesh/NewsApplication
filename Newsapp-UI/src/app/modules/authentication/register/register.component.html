@@ -1,0 +1,39 @@
+<form class="register-form" #registerForm="ngForm"[style.fontsize.px]='20' (ngSubmit)="registerUser()">
+  <div class="register-block">
+    <div class="row">
+      <h3>Register User</h3>
+    </div>
+
+  <div class="form-group">    
+    <label for="firstname">FirstName</label>
+    <div>    
+      <input matInput id="firstname" placeholder="FirstName" name="firstName" [(ngModel)]="newUser.firstName">
+    </div>
+  </div>
+
+  <div class="form-group">    
+    <label for="lastName">LastName</label>
+    <div>    
+      <input matInput id="lastname" placeholder="LastName" name="lastName" [(ngModel)]="newUser.lastName">
+    </div>
+  </div>
+
+  <div class="form-group">    
+    <label for="userid">UserId</label>
+    <div>    
+      <input matInput id="userid" placeholder="UserId" name="userId" [(ngModel)]="newUser.userId">
+    </div>
+  </div>
+
+  <div class="form-group">    
+      <label for="password">Password</label>
+      <div>    
+        <input matInput id="password" placeholder="Password" type="password" name="password" [(ngModel)]="newUser.password">
+      </div>
+  </div>
+  
+  <button class="register-button" id="register-submit-btn-id" mat-raised-button color="primary" type="submit" (click)="registerUser()">
+  Register
+  </button>
+</div>
+</form>

@@ -1,0 +1,20 @@
+  .form-group{
+    margin: 2%;
+    align-content: center;
+    position: relative;
+    right: -80px;
+  }
+  .register-button{
+    right: -135px;
+    margin: 1%;
+  }
+  .row{
+    text-align: center;
+    font: 177px;
+  }
+  .register-form{
+    background-color: lightgoldenrodyellow;
+    border: 1 solid gray;
+    width: 25vw;    
+    margin: 0 auto;
+}

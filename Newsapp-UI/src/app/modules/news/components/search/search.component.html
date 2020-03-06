@@ -1,0 +1,9 @@
+<div class="container-fluid">  
+  <form class="search-form"  > 
+    <div class="form-group" >
+        <label>Search News</label>
+        <input matInput type="text" #box (keyup.enter)="onEnter(box.value)" id="news-search-btn-id" class="form-control">  
+    </div>
+  </form>
+  <news-container [newsList]="newsList"></news-container>  
+</div>

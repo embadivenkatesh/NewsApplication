@@ -1,0 +1,22 @@
+.login-form{
+    background-color: lightgoldenrodyellow;
+    border: 1 solid gray;
+    width: 40vw;    
+    margin: 0 auto;
+}
+.form-group{
+    margin: 4%;
+    align-content: center;
+    right: -160px;
+    position: relative;
+}
+.button-fields{    
+    position: relative;    
+    text-align: center; 
+    padding-bottom: 2%;   
+}
+.row{    
+    text-align: center;    
+    font-size: 27px;
+    position: relative;
+}

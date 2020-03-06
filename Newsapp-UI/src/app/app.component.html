@@ -1,0 +1,14 @@
+<mat-toolbar color="primary" layout-align="center center" >
+    <div class="headerCls">
+    <button mat-button id="headlines-btn-id" [routerLink] = "['/news/headlines']"> HEADLINES </button>
+    <button mat-button [routerLink] = "['/news/business']"> BUSINESS </button>
+    <button mat-button [routerLink] = "['/news/sports']"> SPORTS </button>
+    <button mat-button [routerLink] = "['/news/science']"> SCIENCE </button>
+    <button mat-button [routerLink] = "['/news/entertainment']"> ENTERTAINMENT </button>
+    <button mat-button [routerLink] = "['/news/health']"> HEALTH </button>
+    <button mat-button [routerLink] = "['/news/watchlist']"> WATCH LIST</button>
+    <button mat-button id="search-btn-id" [routerLink] = "['/news/search']" > SEARCH </button>
+    <button mat-button id="logout-btn-id" [routerLink] = "['/logout']"> LOGOUT </button>
+    </div>
+  </mat-toolbar>
+  <router-outlet></router-outlet>
